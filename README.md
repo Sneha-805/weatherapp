@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+📌 WeatherApp — React Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive weather web application built with React.js that fetches and displays real-time weather information for any city using the OpenWeatherMap API. 🌍⛅
 
-## Available Scripts
+🔗 Live Demo
 
-In the project directory, you can run:
+👉 https://weatherapp-umber-chi.vercel.app/
 
-### `npm start`
+(Replace this with your deployed link if different)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📋 Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+WeatherApp allows users to search for a city and see its current weather details such as:
 
-### `npm test`
+🌡️ Temperature
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+☀️ Weather condition
 
-### `npm run build`
+💧 Humidity
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💨 Wind speed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app is built with a clean UI and makes API calls to OpenWeatherMap to retrieve live data based on user input.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 Features
 
-### `npm run eject`
+✨ Key Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Search weather by city name
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Displays current temperature & weather condition
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clean and responsive UI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Built with React and modern web development practices
 
-## Learn More
+🛠️ Technologies Used
+Technology	Purpose
+React.js	Frontend UI development
+Vite	Frontend build tool
+OpenWeatherMap API	Fetch weather data
+HTML / CSS	Markup & styling
+JavaScript	Application logic
+📦 Getting Started
+🔹 Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Make sure you have the following installed on your system:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Node.js (recommended latest LTS)
 
-### Code Splitting
+npm or yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔹 Installation
 
-### Analyzing the Bundle Size
+Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone https://github.com/Sneha-805/weatherapp.git
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Navigate into project directory
 
-### Advanced Configuration
+cd weatherapp
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add your API Key
+
+Create a .env file in the project root
+
+Add your OpenWeatherMap API key:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+
+Start the development server
+
+npm run dev
+
+
+Open in browser
+Go to http://localhost:5173 to see the app running locally.
+
+🧠 How It Works
+
+User enters a city name in the search input
+
+App makes a request to the OpenWeatherMap API
+
+Displays weather data such as temperature, weather description, humidity, and wind speed
+
+Handles errors for invalid city names
+
+You can explore similar project structures in other React weather apps as examples.
+
+🤝 Contributing
+
+This is my personal project, but contributions are welcome!
+Feel free to open an issue or submit a pull request with improvements or bug fixes.
+
+📌 Project Structure
+
+Here’s a quick look at how the project is structured:
+
+weatherapp/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+├── .env
+├── package.json
+└── vite.config.js
+
+📝 Notes
+
+Make sure to never expose your API key publicly. Use a .env file and .gitignore to protect it.
+
+You can enhance the app by adding features like:
+
+Auto-fetch weather for current location
+
+Hourly forecast
+
+Dark/light theme
+
+🪪 License
+
+This project is licensed under the MIT License — feel free to use and modify.
