@@ -4,7 +4,7 @@ A simple, responsive weather web application built using React.js that displays 
 
 🚀 Live Demo
 
-🔗 View Live Application
+🔗 https://weatherapp-umber-chi.vercel.app/
 
 (Update link if required)
 
